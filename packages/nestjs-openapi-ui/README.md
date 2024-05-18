@@ -1,4 +1,4 @@
-# Nestjs-OpenAPI-UI Middleware
+# NestJS-OpenAPI-UI Middleware
 
 [![Version](https://img.shields.io/npm/v/%40openapi-ui/nestjs-openapi-ui)](https://www.npmjs.com/package/@openapi-ui/nestjs-openapi-ui)
 [![Downloads](https://img.shields.io/npm/dm/%40openapi-ui/nestjs-openapi-ui)](https://www.npmjs.com/package/@openapi-ui/nestjs-openapi-ui)
@@ -12,7 +12,7 @@ npm install @openapi-ui/nestjs-openapi-ui
 
 ## Usage
 
-[Set up NestJS](https://docs.nestjs.com/first-steps) and [set up NestJS Swagger](https://docs.nestjs.com/openapi/introduction) and pass an OpenAPI/Swagger spec to the `apiReference` middleware:
+[Set up NestJS](https://docs.nestjs.com/first-steps) and [set up NestJS Swagger](https://docs.nestjs.com/openapi/introduction) and pass an OpenAPI/Swagger spec to the `openApiUIReference` middleware:
 
 ```ts
 import { DocumentBuilder, SwaggerModule } from "@nestjs/swagger"
@@ -40,6 +40,8 @@ app.use(
 )
 ```
 
+[try example](https://github.com/openapi-ui/nodejs-openapi-ui/tree/main/examples/nestjs-openapi-ui-express)
+
 ### Themes
 
 ```ts
@@ -65,7 +67,7 @@ app.use(
   "/openapi",
   openApiUIReference({
     specPath: "/openapi.json",
-    cdn: 'https://unpkg.com/openapi-ui-dist',
+    cdn: 'https://registry.npmmirror.com/openapi-ui-dist/latest/files',
   }),
 )
 ```

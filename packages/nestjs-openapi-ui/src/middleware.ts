@@ -3,7 +3,6 @@ import { type FastifyRequest } from "fastify";
 import { type ServerResponse } from "http";
 
 export interface IOpenApiUIOption {
-  // docsPath?: string;
   specPath: string;
   title?: string;
   description?: string;
@@ -39,14 +38,14 @@ export function openApiUIReference(options: IOpenApiUIOption) {
   `;
 
   if (options.withFastify) {
-    return (req: FastifyRequest, res: ServerResponse) => {
+    return (_: FastifyRequest, res: ServerResponse) => {
       res.writeHead(200, { "Content-Type": "text/html" });
       res.write(content);
       res.end();
     };
   }
 
-  return (req: Request, res: Response) => {
+  return (_: Request, res: Response) => {
     res.send(content);
   };
 }

@@ -1,5 +1,5 @@
 {
-  "name": "@openapi-ui/nestjs-openapi-ui-express",
+  "name": "@openapi-ui-examples/nestjs-openapi-ui-express",
   "description": "Nest with express as http adapter",
   "version": "0.1.0",
   "author": "rookie-luochao",

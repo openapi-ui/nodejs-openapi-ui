@@ -37,6 +37,7 @@ async function bootstrap() {
       specPath: specPath,
       withFastify: true,
       theme: 'dark',
+      cdn: 'https://registry.npmmirror.com/openapi-ui-dist/latest/files',
     }),
   );
 

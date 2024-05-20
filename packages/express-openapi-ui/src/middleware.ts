@@ -8,7 +8,7 @@ export interface IOpenApiUIOption {
   cdn?: string;
 }
 
-export const OpenApiUIReference = (options: IOpenApiUIOption) => {
+export const loadConfig = (options: IOpenApiUIOption) => {
   const { specPath = "/openapi.json", theme, cdn } = options;
   return `
     <div id="openapi-ui-container" spec-url="${specPath}" theme="${theme}"></div>
@@ -30,7 +30,7 @@ export function openApiUIReference(options: IOpenApiUIOption) {
       <meta name="viewport" content="width=device-width, initial-scale=1" />
     </head>
     <body>
-      ${OpenApiUIReference(options)}
+      ${loadConfig(options)}
     </body>
   </html>
 `);

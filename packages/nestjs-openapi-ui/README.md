@@ -1,13 +1,14 @@
 # NestJS-OpenAPI-UI Middleware
 
-[![Version](https://img.shields.io/npm/v/%40openapi-ui/nestjs-openapi-ui)](https://www.npmjs.com/package/@openapi-ui/nestjs-openapi-ui)
-[![Downloads](https://img.shields.io/npm/dm/%40openapi-ui/nestjs-openapi-ui)](https://www.npmjs.com/package/@openapi-ui/nestjs-openapi-ui)
-[![License](https://img.shields.io/npm/l/%40openapi-ui/nestjs-openapi-ui)](https://www.npmjs.com/package/@openapi-ui/nestjs-openapi-ui)
+[![Version](https://img.shields.io/npm/v/@openapi-ui/nestjs-openapi-ui)](https://www.npmjs.com/package/@openapi-ui/nestjs-openapi-ui)
+[![Downloads](https://img.shields.io/npm/dm/@openapi-ui/nestjs-openapi-ui)](https://www.npmjs.com/package/@openapi-ui/nestjs-openapi-ui)
 
 ## Install
 
 ```bash
 npm install @openapi-ui/nestjs-openapi-ui
+
+pnpm install @openapi-ui/nestjs-openapi-ui
 ```
 
 ## Usage

@@ -9,7 +9,7 @@
   },
   "scripts": {
     "build": "tsc --p tsconfig.json && tsc-alias -p tsconfig.json",
-    "dev": "nodemon --exec \"vite-node src/index.ts\" --ext ts --quiet --watch ../../packages/hono-openapi-ui --watch ./"
+    "dev": "pnpm --filter hono-openapi-ui build && pnpm install && nodemon --exec \"vite-node src/index.ts\" --ext ts --quiet --watch ./"
   },
   "dependencies": {
     "@hono/node-server": "^1.11.0",

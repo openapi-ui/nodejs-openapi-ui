@@ -1,6 +1,7 @@
 {
   "name": "nodejs-openapi-ui",
   "type": "module",
+  "private": true,
   "description": "A middleware collection for using the OpenAPI-UI with NodeJS",
   "author": "rookie-luochao",
   "license": "MIT",

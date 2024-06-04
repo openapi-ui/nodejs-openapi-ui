@@ -44,7 +44,7 @@ const openApiSpec = swaggerJsdoc({
     openapi: "3.0.0",
     info: {
       title: "Hello World",
-      version: "1.0.0",
+      version: "1.0",
     },
   },
   apis: ["./src/*.ts"], // files containing annotations as above

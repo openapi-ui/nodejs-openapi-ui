@@ -165,7 +165,7 @@ app.doc(specPath, {
   info: {
     title: "Example API",
     description: "Example API description",
-    version: "v1",
+    version: "1.0",
   },
   openapi: "3.0.0",
 });
@@ -179,7 +179,7 @@ app.use(
   }),
 );
 
-const PORT = Number(process.env.PORT) || 8004;
+const PORT = Number(process.env.PORT) || 8005;
 const HOST = process.env.HOST || "0.0.0.0";
 serve(
   {

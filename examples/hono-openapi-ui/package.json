@@ -1,7 +1,7 @@
 {
   "name": "@openapi-ui-examples/hono-openapi-ui",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "rookie-luochao",
   "private": true,
   "engines": {

@@ -1,7 +1,7 @@
 {
   "name": "@openapi-ui-examples/nestjs-openapi-ui-fastify",
   "description": "Nest with fastify as http adapter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "author": "rookie-luochao",
   "private": true,
   "engines": {

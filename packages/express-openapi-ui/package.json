@@ -1,7 +1,7 @@
 {
   "name": "@openapi-ui/express-openapi-ui",
   "description": "A middleware for using the OpenAPI-UI with Express",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "rookie-luochao",
   "homepage": "https://github.com/openapi-ui/nodejs-openapi-ui",
   "bugs": "https://github.com/openapi-ui/nodejs-openapi-ui/issues",
